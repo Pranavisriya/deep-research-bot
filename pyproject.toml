@@ -1,0 +1,35 @@
+[project]
+name = "deep-research"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Gaurav Sharma",email = "psykickai@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12,<4.0"
+
+[tool.poetry]
+packages = [
+    { include = "deep_research" }
+]
+
+[tool.poetry.dependencies]
+python = ">=3.12,<4.0"
+langchain-openai = ">=0.3.11,<0.4.0"
+langgraph = ">=1.0,<2.0"
+tavily-python = "^0.5.4"
+python-dotenv = "^1.1.0"
+langchain-anthropic = "^0.3.10"
+langchain-ollama = "^0.3.1"
+langchain-google-genai = "^2.1.2"
+groq = ">=0.33.0"
+ipython = "^9.7.0"
+langchain-core = ">=1.0,<2.0"
+langchain-community = ">=0.3.12,<0.4.0"
+langchain-text-splitters = ">=0.3.7,<0.4.0"
+langchain-groq = ">=1.0.0"
+pydantic = ">=2,<3"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
